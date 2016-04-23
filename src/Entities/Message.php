@@ -333,6 +333,9 @@ class Message extends Entity
         return $this->date;
     }
 
+    /**
+     * @return Chat
+     */
     public function getChat()
     {
         return $this->chat;
